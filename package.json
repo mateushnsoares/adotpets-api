@@ -7,7 +7,7 @@
 	"scripts": {
 		"lint": "eslint src --ext ts --fix",
 		"compile": "tsc",
-		"dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts",
+		"dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
 		"migrations": "",
 		"migrations:rollback": "",
 		"seeds": ""
